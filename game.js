@@ -18,16 +18,16 @@ window.addEventListener('keydown', function (event) { KeyBinder.onKeydown(event)
 
 const world = new World()
 
-world.registerComponent(Velocity)
-world.registerComponent(Position)
-world.registerComponent(Acceleration)
-world.registerComponent(Direction)
-world.registerComponent(Attractor)
-
-world.registerComponent(Shape)
-world.registerComponent(Renderable)
-world.registerComponent(PlayerControlled)
-world.registerComponent(Engine)
+world
+    .registerComponent(Velocity)
+    .registerComponent(Position)
+    .registerComponent(Acceleration)
+    .registerComponent(Direction)
+    .registerComponent(Attractor)
+    .registerComponent(Shape)
+    .registerComponent(Renderable)
+    .registerComponent(PlayerControlled)
+    .registerComponent(Engine)
 
 world
     .registerSystem(MovableSystem)
