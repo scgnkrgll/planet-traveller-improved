@@ -1,0 +1,20 @@
+{
+  "name": "planet-traveller-improved",
+  "version": "1.0.0",
+  "main": "game.js",
+  "repository": "https://github.com/scgnkrgll/planet-traveller-improved.git",
+  "author": "Seçgin Karagülle <scgn.krgll@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "scripts": {
+    "dev": "parcel game.html"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ],
+  "dependencies": {
+    "ecsy": "^0.4.2"
+  }
+}

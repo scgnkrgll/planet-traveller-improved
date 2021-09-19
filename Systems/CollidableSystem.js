@@ -1,4 +1,4 @@
-import { System } from 'https://ecsy.io/build/ecsy.module.js'
+import { System } from 'ecsy'
 import Position from '../Components/PositionComponent.js'
 
 class CollidableSystem extends System {

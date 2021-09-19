@@ -1,4 +1,4 @@
-import { Component, Types } from 'https://ecsy.io/build/ecsy.module.js'
+import { Component, Types } from 'ecsy'
 
 class Direction extends Component { }
 

@@ -1,4 +1,4 @@
-import { System, TagComponent } from 'https://ecsy.io/build/ecsy.module.js'
+import { System, TagComponent } from 'ecsy'
 import { constants } from '../Utils/helpers.js'
 import Position from '../Components/PositionComponent.js'
 import Shape from '../Components/ShapeComponent.js'

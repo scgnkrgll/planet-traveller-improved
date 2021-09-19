@@ -1,4 +1,4 @@
-import { TagComponent } from 'https://ecsy.io/build/ecsy.module.js'
+import { TagComponent } from 'ecsy'
 
 class PlayerControlled extends TagComponent { }
 

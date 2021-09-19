@@ -1,4 +1,4 @@
-import { System, Not } from 'https://ecsy.io/build/ecsy.module.js'
+import { System, Not } from 'ecsy'
 import { constants } from '../Utils/helpers.js'
 import Velocity from '../Components/VelocityComponent.js'
 import Position from '../Components/PositionComponent.js'
